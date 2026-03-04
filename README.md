@@ -1,6 +1,6 @@
 # Trabalho-Final-AED-1
-Introdução: O tema abordado foi a lista de receitas sustentáveis, foi pedido uma lista duplamente encadeada de receitas que dentro dela irira uma lista duplamente encadeada de ingredientes.
-Para resolver esse problema, comecei criande 3 structs (TAD's):
+Introdução: O tema abordado foi a lista de receitas sustentáveis, foi pedido uma lista duplamente encadeada de receitas que um dos seus campos é uma lista duplamente encadeada de ingredientes.
+Para resolver esse problema, comecei criando 3 structs (TAD's):
 * 1 - struct de Ingredientes:
 ```
 typedef struct Ingrediente{
@@ -35,11 +35,11 @@ Tendo as structs prontas foi organizado o projeto conforme a imagem abaixo:
 
 Documentação: Aqui deixo a explicação de como cada função foi utilizada.
 ### Funções Básicas:
-* void carregarReceitas(ListaReceita *lista, char *nomeArquivo): essa função vai receber a lista de receitas, que está nula e ira cadastrar cada receita que está no arquivo cujo o nome foi informado, para isso ela irá chamar as funções (adicionarReceita e adicionarIngredienteNaReceita);
+* void carregarReceitas(ListaReceita *lista, char *nomeArquivo): essa função vai receber a lista de receitas, que está nula e irá cadastrar cada receita que está no arquivo cujo o nome foi informado, para isso ela irá chamar as funções (adicionarReceita e adicionarIngredienteNaReceita);
 * void adicionarReceita(Receita *receita, ListaReceita *lista): essa função adiciona uma receita na lista de receitas, para isso ela chama a função (criarReceita);
 * Receita criarReceita(char *nomeReceita, char *preparo, char *tipo): essa função é chamada quando uma nova receita for ser criada, ela recebe o nome, modo de preparo e tipo da receita e retorna a receita criada;
 * void adicionarIngredienteNaReceita(char *nomeReceita, char *nomeIngrediente, int kcal, ListaReceita *lista): essa função é chamada toda vez que uma nova receita for adicionada, ela chama a função criarIngrediente;
-* Ingrediente criarIngrediente(char *nomeIngrediente, int kcal): é chamada toda vez que um novo ingrediente for ser criado, recebe o nome e as kcal d eum ingrediente e retorna o ingrediente criado;
+* Ingrediente criarIngrediente(char *nomeIngrediente, int kcal): é chamada toda vez que um novo ingrediente for ser criado, recebe o nome e as kcal de um ingrediente e retorna o ingrediente criado;
 * void removerReceita(char *nomeReceita, ListaReceita *lista): essa função serve para remover uma receita da lista, para isso primeiro ela chama a função buscaReceita, se ela for encontrada então é removida da lista e o espaço de memória é desalocado;
 * Receita buscaReceita(char *nomeReceita, ListaReceita *lista): quando essa função é chamada ela faz uma varredura na lista e retorna a receita que possui o campo nome igual ao nomeReceita;
 * void listarReceita(ListaReceita *lista): essa função recebe a lista de receitas e imprime todas as receitas dentro dela, para imprimir a sublista de ingredientes ela chama a função listarIngrediente;
