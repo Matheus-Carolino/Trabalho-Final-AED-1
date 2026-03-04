@@ -4,14 +4,14 @@
         char nome[50];
         int kcal;
         struct Ingrediente *ant;
-        struct Ingrediente *prox;
+        struct Ingrediente *prox;  
     } Ingrediente;
     
-    typedef struct Receita{
+    typedef struct Receita {
         char nome[50];
         char preparo[200];
         char tipo[50];
-        Ingrediente *ingredientes;
+        struct Ingrediente *ingredientes;
         struct Receita *ant;
         struct Receita *prox;
     } Receita;
@@ -38,7 +38,6 @@
     Ingrediente *criarIngrediente(char *nome, int kcal);
     void adicionarIngredienteNaReceita(char *nomeReceita, char *nomeIngrediente, int kcal, ListaReceita *lr);
     void listarIngrediente(char *nomeReceita, ListaReceita *lr);
-    void filtrarPorIngrediente(char *nome, ListaReceita *lr);
      
     void exibirValorCalorico(char *nome, ListaReceita *lr);
     int calcularKcal(Receita *receita);

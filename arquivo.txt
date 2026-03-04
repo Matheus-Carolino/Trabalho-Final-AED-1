@@ -1,24 +1,25 @@
+
 Receita: Salada de Quinoa Sustentável
 Preparo: Cozinhe a quinoa e misture com legumes orgânicos picados
 Tipo: Vegana
-Ingredientes: Quinoa|120Kcal; Tomate Orgânico|20Kcal; Cenoura Orgânica|40Kcal; Azeite Extra Virgem|90Kcal 
+Ingredientes: Quinoa|120Kcal; Tomate Orgânico|20Kcal; Cenoura Orgânica|40Kcal; Azeite Extra Virgem|90Kcal
 Receita: Sopa de Lentilha Sustentável
 Preparo: Cozinhe as lentilhas com temperos naturais e legumes da estação
 Tipo: Vegetariana
-Ingredientes: Lentilha|150Kcal; Cenoura|35Kcal; Batata|80Kcal; Cebola|25Kcal 
+Ingredientes: Lentilha|150Kcal; Cenoura|35Kcal; Batata|80Kcal; Cebola|25Kcal
 Receita: Smoothie Verde Sustentável
 Preparo: Bata todos os ingredientes no liquidificador até obter uma mistura homogênea
 Tipo: Vegana
-Ingredientes: Couve|30Kcal; Maçã|70Kcal; Limão|20Kcal; Gengibre|10Kcal 
+Ingredientes: Couve|30Kcal; Maçã|70Kcal; Limão|20Kcal; Gengibre|10Kcal
 Receita: Arroz Integral com Legumes Sustentáveis
 Preparo: Cozinhe o arroz integral e refogue com legumes frescos
 Tipo: Vegetariana
-Ingredientes: Arroz Integral|200Kcal; Abobrinha|25Kcal; Pimentão|30Kcal; Brócolis|40Kcal 
+Ingredientes: Arroz Integral|200Kcal; Abobrinha|25Kcal; Pimentão|30Kcal; Brócolis|40Kcal
 Receita: Wrap Sustentável de Grão-de-Bico
 Preparo: Prepare a massa com farinha integral e recheie com grão-de-bico temperado
 Tipo: Vegana
-Ingredientes: Farinha Integral|180Kcal; Grão-de-Bico|160Kcal; Alface|10Kcal; Tomate|20Kcal 
+Ingredientes: Farinha Integral|180Kcal; Grão-de-Bico|160Kcal; Alface|10Kcal; Tomate|20Kcal
 Receita: Brocolis
 Preparo: colhe e come
 Tipo: Vegana
-Ingredientes: brocolis|40Kcal 
+Ingredientes: brocolis|40Kcal
